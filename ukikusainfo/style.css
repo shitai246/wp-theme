@@ -1,0 +1,268 @@
+/*
+Theme Name: ukikusa_info
+Theme URI: http://ukikusa.info/
+Description: ukikusa.info オリジナルテーマ
+Author: shitai246
+Version: 1.0
+Tags: two-columns, 
+*/
+
+/* Design */
+html {
+	color:#000;
+}
+body {
+	font: 12px/1.5 meiryo;
+	margin: 0px;
+	padding: 0px 0px 40px;
+	text-align:center;
+}
+a {
+	color:#080;
+}
+a:link,a:visited {
+	color:#080;
+}
+a:hover {
+	color:#0AA;
+	text-decoration:none;
+}
+
+/* ヘッダーデザイン */
+#header {
+	text-align: center;
+	width:960px;
+	overflow:auto;
+	margin:5px auto;
+	padding: 10px 10px 0px;
+	border-bottom:10px solid #082;
+}
+
+#headerimg {
+	float:left;
+	width:300px;
+	text-align:left;
+}
+
+#headerimg .title {
+	font: 36px/1.2 meiryo;
+	vertical-align: bottom;
+}
+#headerimg .description {
+	font: 14px/1.2 meiryo;
+	vertical-align: bottom;
+}
+
+#headermenu {
+        margin:0px;
+        padding:0px;
+        height:40px;
+	line-height: 40px;
+        text-align:right;
+	vertical-align: top;
+}
+
+#headermenu input {
+        font: 12px/1.2 meiryo;
+	height: 20px;
+        border: 1px solid #082;
+	padding: 0px;
+        margin: 0px;
+	vertical-align: top;
+}
+
+#headermenu input.text {
+        width: 200px;
+        margin-right: 0px;
+}
+
+#headermenu input.submit {
+        width: 50px;
+	margin-left: 0px;
+        margin-right: 10px;
+        background: #AFA;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+#headermenu img {
+        width:32px;
+        height:32px;
+        border:none;
+        margin:1px 4px;
+}
+
+#header .header_menu #menu-navi li.menu-item {
+	float:right;
+	background: #AFA;
+	width:80px;
+	margin:0px 5px 0px;
+	padding: 2px;
+	border:1px solid #082;
+	border-bottom:none;
+	border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	list-style:none;
+}
+
+#header .header_menu #menu-navi li.current-menu-item {
+	color: #FFF;
+	float:right;
+	background: #082;
+	width:80px;
+	margin:0px 5px 0px;
+	padding: 2px;
+	border:1px solid #082;
+	border-bottom:none;
+	border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+}
+
+#header .header_menu #menu-navi li.current-menu-item a {
+	color: #FFF;
+}
+
+#header a {
+	text-decoration:none;
+}
+/* ヘッダーデザイン ここまで */
+
+/* エントリ*/
+#contents {
+	width:960px;
+	margin:5px auto;
+}
+
+#content {
+	float:left;
+	width:670px;
+	margin:5px auto;
+}
+.post {
+	text-align: left;
+	float:left;
+	width:670px;
+	margin:5px auto;
+	border:1px solid #082;
+	background: #082;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+.post .post-info {
+	color: #FFF;
+	width:100px;
+	height:100%;
+	padding: 5px;
+	float:left;
+	margin:0px;
+	text-align: right;
+}
+.post .post-info .post-year {
+	margin: 5px;
+	font: 12px/1 meiryo;
+	color: #DFE;
+}
+.post .post-info .post-date {
+	font: 28px/1 meiryo;
+	color: #FFF;
+}
+.post .post-info a {
+	color: #FFF;
+}
+.entry {
+	color: #000;
+	width:540px;
+	float:left;
+	margin:0px;
+	padding: 10px;
+	background: #FFF;
+	border-radius:0px 5px 5px 0px;
+	-moz-border-radius:0px 5px 5px 0px;
+}
+.post .entry h2.title {
+	width:98%;
+	font: 18px/1.2 meiryo;
+	background: #FFF;
+	margin:5px auto;
+	border-bottom: 1px dashed #082;
+}
+
+.post .entry h2.title a {
+	text-decoration:none;
+}
+
+.post #comments {
+	color: #000;
+	text-align:center;
+	width:500px;
+	margin:0px;
+	background: #FFF;
+}
+.post #comments ol.commentlist {
+	width: 500px;
+	background: #FFF;
+	border: none;
+	text-align:left;
+}
+.post #comments ol.commentlist li {
+	width: 500px;
+	background: #FFF;
+	border: none;
+ 	border-top: 1px dashed #082;
+}
+
+.post #comments textarea {
+	width:500px;
+	height:60px;
+}
+
+/* サイドバー */
+#sidebar {
+	float:left;
+	width:290px;
+	margin:5px auto;
+	padding: 0px;
+	text-align:left;
+}
+
+#sidebar ul.widget-ul {
+	width:280px;
+	margin:5px auto 5px;
+	padding:0px;
+	list-style: none outside;
+}
+
+#sidebar li.widget-container {
+	width:260px;
+	margin:5px auto 5px;
+	padding:0px;
+	border: 1px solid #082;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+#sidebar li.widget-container h3 {
+	font: 12px/1.5 meiryo;
+	text-align:center;
+	color: #FFF;
+	background: #082;
+	width:258px;
+	margin:0px;
+	padding:0px;
+	border: 1px solid #082;
+	border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+}
+
+/* フッター */
+#footer {
+	text-align:center;
+	width:960px;
+	overflow:auto;
+	margin:5px auto;
+	border-top: 1px dashed #082;
+}
+#credits {
+	font: 12px/1.2 meiryo;
+	text-align:center;
+}
