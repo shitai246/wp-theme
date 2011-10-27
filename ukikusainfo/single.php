@@ -23,6 +23,11 @@
 				<h2 class="title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__('Permalink to %s', 'ukikusa_info'), the_title_attribute('echo=0') ); ?>"><?php the_title(); ?></a></h2>
 				<?php if ( $options['excerpt_check']=='true' ) { the_excerpt(__('Read more &raquo;','ukikusa_info')); } else { the_content(__('Read more &raquo;','ukikusa_info')); } ?>
 
+				<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/hatena-bookmark-anywhere.js" charset="utf-8"></script>
+				<script type= "text/javascript">
+					var hatena_bookmark_anywhere_url = "<?php the_permalink(); ?>";
+				</script>
+				<div id="hatena_bookmark_anywhere"></div>
 			</div><!-- END entry -->
 		</div><!-- END post -->
 

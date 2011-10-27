@@ -237,6 +237,7 @@ a:hover {
 	margin:5px auto 5px;
 	padding:0px;
 	border: 1px solid #082;
+	border-tom: none;
 	border-radius:5px;
 	-moz-border-radius:5px;
 }
@@ -246,8 +247,8 @@ a:hover {
 	text-align:center;
 	color: #FFF;
 	background: #082;
-	width:258px;
-	margin:0px;
+	width:260px;
+	margin:-1px;
 	padding:0px;
 	border: 1px solid #082;
 	border-radius:5px 5px 0px 0px;
